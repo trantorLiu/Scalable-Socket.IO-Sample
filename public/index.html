@@ -1,0 +1,18 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+	var socket = io.connect('http://localhost:3000');
+</script>
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+
+<!DOCTYPE HTML>
+<html>
+	<body>
+		<h3>Node: Express, Cluster, Socket.IO, Redis - All It Together</h3>
+		<p>
+			Refresh the page quickly and you will see that the requests are passed to different workers.
+			<br />
+			Or open new tabs to establish other connections with socket.io.
+		</p>
+	</body>
+</html>
